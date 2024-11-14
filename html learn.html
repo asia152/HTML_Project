@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html learning project</title>
+     <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    
+    background-color:green;
+    color: #fff;
+    padding: 0 10px;
+    text-align: center;
+    padding: 5px 5px;
+  
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;  
+   
+
+}
+
+ nav {
+      display: flex;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 5px; 
+
+     
+  
+   
+}
+
+ nav a {
+     
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: bold;
+    
+}
+
+  nav a:hover {
+    color:blue;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 10px;
+
+}
+ 
+
+.project img{
+    width:20px;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+   h3 {
+    padding: 5px;
+    
+
+   }
+.table h3{
+    margin: 0  30px;
+}
+
+table {
+    width: 94%;
+     margin-left:35px;
+     padding-right: 100px ;
+    border-collapse: collapse;
+    
+     
+}
+
+table, th, td {
+    border: 1px solid  #ddd;
+
+    padding: 5px;
+    
+}
+
+th {
+    background-color:green;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+section {
+    padding: 20px;
+}
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    overflow: hidden;
+    text-align: center;
+    
+    
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: #555;
+     padding: 0 10px 15px;
+   
+    }
+
+ h3{
+     
+     margin-left: 60px;
+      
+      
+     }
+    
+
+
+form label {
+    font-weight: bold;
+     margin:70px;
+}
+form input{
+    padding: 5px  490px;
+    margin-left: 70px;
+    border-radius: 4px;
+    border: none;
+}
+textarea{
+    margin-left:70px;
+    border-radius: 4px;
+     
+}
+  footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-left:70px;
+    margin-right: 45px;
+    border-radius: 4px;
+  }
+ 
+
+
+
+ 
+
+     </style>
+</head>
+<body>
+    <header>
+        <h1> HTML learning Project</h1>
+        </header>
+        <nav>
+            <a href="#About">About</a>
+
+            <a href="#Projects">Projects</a>
+
+            <a href="#Testimonials">Testimonials</a>
+
+            <a href="#Contact">Contact</a>
+        </nav>
+    
+    
+         
+    
+      <div class="project">
+    <h2> About This Project</h2>
+    <p> This Project helps students learn HTML and CSS basics by building afunctional webpage</p>
+     <img src="somtic.jpg" width="20px">
+     </di>
+     <div class="table">
+        <h3>Project List</h3>
+    <table  border="1px">
+        <tr>
+            <th>Project Name</th>
+            <th>Description</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+         <td>Portfolio Website</td>
+         <td>showcase your projects and skills.</td>
+         <td>completed</td>
+       </tr>
+       
+         <td> Personal Blog</td>
+         <td>A simple blogging platform.</td>
+         <td>in progress</td>
+       </tr>
+    </table>
+    </div>
+<section>
+    <h2>Testimonials</h2>
+    <p><b>Challange:</b> Recreate this grid layout of testimonials using HTML and CSS</p>
+     <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="somtic.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Reviewer One</h5>
+              <p class="card-text">"This Project tought me a lot about HTML and CSS. Ifeel much more confident now!"</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="somtic.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Reviewer Two</h5>
+              <p class="card-text">"A Challange but rewarding experience. Highlyrecommended for begginer."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="somtic.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Reviewer Three</h5>
+              <p class="card-text">" Iwas able to create afuctional Webpage by the end of this project!"</p>
+            </div>
+          </div>
+        </div>
+         
+          </div>
+        </div>
+      </div>
+      </section>
+      <div class="contact">
+      <h3>Contact Me</h3>
+      <form >
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name">
+          <br><br>
+  
+          <label for="Email">Email:</label><br>
+          <input type="Email" id="Email" name="Email" >
+          <br><br>
+          <label for="Message">Message:</label><br>
+          <textarea id="Message" name="Message" rows="5" cols="169"></textarea>
+          <br><br>
+          </form>
+        <footer>
+            send
+        </footer>
+    
+</body>
+</html> 
